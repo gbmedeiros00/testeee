@@ -1,0 +1,36 @@
+@import './variaveis';
+
+.card{
+    font-family: $font-stack;
+    background-color: $background-color;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+
+    .conteudo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 43.75em;
+        gap: 5em;
+        padding: 1em;
+        background-color: $primary-color;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        h3{
+            font-size: 40px;
+            font-weight: bold;
+        }
+        
+        p{
+            font-size: 23px;    
+        }
+    }
+    .conteudo-card{
+        gap: 5em;
+        margin: 0.8em;
+    }
+}

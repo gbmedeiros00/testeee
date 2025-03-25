@@ -1,0 +1,43 @@
+@import './variaveis';
+
+* {
+    margin: 0px; 
+    
+}
+.footer{
+    font-family: $font-stack;
+    background-color: $background-color; 
+    max-width: fit-content;
+
+    gap: 5em;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+
+    padding: 2em;
+    
+    .contatos{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+    .texto {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: auto;
+        text-align: right;
+        padding: 0px;
+
+        h1{
+            color: $second-color;
+            padding-bottom: -30px;
+            font-size: 48px;
+        }
+
+        p{
+            font-size: 32px;
+        }
+    }
+    
+}
