@@ -1,4 +1,4 @@
-## 💻 Aprendizado por Projeto Integrado (API) 
+## 💻 Sprint 1 (API) 
 
 Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos estudantes envolvidos.
 Uso de estratégias para entender o problema, conceber uma solução viável ao desenvolver e implementar o MVP seguido de sua operação (CDIO). 
